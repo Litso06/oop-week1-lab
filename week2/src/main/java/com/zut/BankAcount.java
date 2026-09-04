@@ -3,10 +3,10 @@ package com.zut;
 public class BankAcount {
     // Attributes - instance variables - data
     String accountHolder;
-    double balance;
+    public double balance;
 
     // State or Behaviour
-    void deposit(double amount){
+    public void deposit(double amount){
         this.balance = this.balance + amount;
     }
 
